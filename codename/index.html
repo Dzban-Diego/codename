@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Tajniacy-menu</title>
+        <link rel="shortcut icon" href="/tajniacy/board/grafika/bb.JPG">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />  
+        
+        <style>
+        body{
+            background-color: black;
+            font-family: 'Archivo Black', sans-serif;
+        }
+
+        #lists{
+            width: 500px;
+            height: 280px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #ebebeb;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        #name{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        #description{
+            margin: 10px;
+            text-align: justify;
+        }
+
+        #word{
+            float: left;
+            width: 260px;
+            padding: 10px;
+        }
+
+        #room{
+            float: right;
+            width: 200px;
+            padding: 10px;
+        }
+
+        #roomname{
+            width: 50px;
+            
+        }
+
+        #submit{
+            width: 60px;
+            height: 30px;
+            margin-left: 220px;
+            margin-right: 220px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="conteiner">
+            <div id="lists">
+                <div id="name">Tajniacy</div>
+                <div id="description">Witaj w menu głównym gry online Tajniacy. Pamiętaj by nie rozsyłać tej strony dalej. Masz ją wyłącznie do użytku własnego(oczywiście możesz grać z innymi). Aby zdobyć kod pokoju skontaktuj się z Michałem Klimczewskim. Miłej gry życzę ja i pozdrowionka dla rodzinki.</div>
+                <form action="http://klimczewski.pl/tajniacy/tajniacy.php" method="get">
+                    <div id="word">
+                        <label for="wordbase">Dziedzina słów:</label>
+                        <select id="wb" name="wb">
+                                <option value="k">Klasyczne</option>
+                                <option value="jt">Bibljne by TP</option>
+                                <option value="jo">Bibljne by OS</option>
+                                <option value="jm">Bibljne MIX</option>
+                                <option value="m">MIX</option>
+                        </select><br>
+                    </div> 
+                    <div id="room">
+                            Nazwa pokoju: <input id="roomname" type="text" name="r"><br>
+                    </div>
+                    <input id="submit" type="submit" value="GRAJ">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

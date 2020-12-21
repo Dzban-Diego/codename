@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.cell{
+    height: 100px;
+    width: 150px;
+    float: left;
+    background-image: url("grafika/word.jpg");
+    background-size: 100%;
+    padding-top: 45px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#c5, #c10, #c15, #c20{
+    clear: both;
+}
+
+.btt{
+    height: 100px;
+    width: 150px;
+    float: left;
+    background-size: 100%;
+}
+
+#blue{
+    background-image: url("grafika/bb.jpg");
+}
+
+#red{
+    background-image: url("grafika/rr.jpg");
+}
+
+#white{
+    background-image: url("grafika/wh.jpg");
+}
+
+#black{
+    background-image: url("grafika/kill.jpg");
+}
+
+#up{
+    margin-left: auto;
+    margin-right: auto;
+    height: 101px;
+    width: 600px;
+}
+
+#cards{
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    height: 501px;
+    width: 750px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#bottom{
+    margin-left:auto;
+    margin-right: auto;
+    width: 750px;
+    height: 100px;
+}
+
+#leader{
+    float: left;
+    width: 530px;
+    height: 25px;
+    background-color: #ebebeb;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#leader2{
+    float: left;
+    width: 150px;
+    height: 25px;
+    background-color: #ebebeb;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#copy{
+    float: left;
+    width: 70px;
+    height: 25px;
+}
+
+#credits{
+    clear: both;
+    height: 25px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.res{
+    background-color: #ebebeb;
+    width: 130px;
+    height: 25px;
+}
+
+.res:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+.res:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+.res:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+.res:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}

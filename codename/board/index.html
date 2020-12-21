@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Plansza</title>
+        <link rel="shortcut icon" href="grafika/bb.JPG">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="board.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="board.js"></script>  
+        
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        
+    </head>
+    <body>
+        <div id="app">
+            <div id="up">
+                <button id="blue" class="btt" onclick="chcli('b')"></button>
+                <button id="red" class="btt" onclick="chcli('r')"></button>
+                <button id="white" class="btt" onclick="chcli('w')"></button>
+                <button id="black" class="btt" onclick="chcli('kill')"></button>
+            </div>
+
+            <div id="cards">
+                <button onclick="clicku('0')" class="cell" id="c0"></button>
+                <button onclick="clicku('1')" class="cell" id="c1"></button>
+                <button onclick="clicku('2')" class="cell" id="c2"></button>
+                <button onclick="clicku('3')" class="cell" id="c3"></button>
+                <button onclick="clicku('4')" class="cell" id="c4"></button>
+
+                <button onclick="clicku('5')" class="cell" id="c5"></button>
+                <button onclick="clicku('6')" class="cell" id="c6"></button>
+                <button onclick="clicku('7')" class="cell" id="c7"></button>
+                <button onclick="clicku('8')" class="cell" id="c8"></button>
+                <button onclick="clicku('9')" class="cell" id="c9"></button>
+
+                <button onclick="clicku('10')" class="cell" id="c10"></button>
+                <button onclick="clicku('11')" class="cell" id="c11"></button>
+                <button onclick="clicku('12')" class="cell" id="c12"></button>
+                <button onclick="clicku('13')" class="cell" id="c13"></button>
+                <button onclick="clicku('14')" class="cell" id="c14"></button>
+
+                <button onclick="clicku('15')" class="cell" id="c15"></button>
+                <button onclick="clicku('16')" class="cell" id="c16"></button>
+                <button onclick="clicku('17')" class="cell" id="c17"></button>
+                <button onclick="clicku('18')" class="cell" id="c18"></button>
+                <button onclick="clicku('19')" class="cell" id="c19"></button>
+
+                <button onclick="clicku('20')" class="cell" id="c20"></button>
+                <button onclick="clicku('21')" class="cell" id="c21"></button>
+                <button onclick="clicku('22')" class="cell" id="c22"></button>
+                <button onclick="clicku('23')" class="cell" id="c23"></button>
+                <button onclick="clicku('24')" class="cell" id="c24"></button>
+            </div>
+            <div id="bottom">
+                <div id="leader2">Link dla lidera: </div><div id="leader"></div>
+                <button id="copy" onclick="copy()">Kopiuj</button>
+                <a class="res" href="http://klimczewski.pl/tajniacy/">Rozpocznij nową rundę.</a>
+                <div id="credits">Przełożył: Michał Klimczewski</div>
+            </div>
+        </div>
+    </body>
+</html>
